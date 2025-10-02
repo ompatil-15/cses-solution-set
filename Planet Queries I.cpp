@@ -7,11 +7,15 @@ using namespace std;
 typedef long long ll;
 
 int main() {
-    ll n, q;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n, q;
     cin >> n >> q;
 
-    ll kLog = 50;
-    vector<vector<ll>> query(n+1, vector<ll> (kLog, -1));
+    int kLog = 32;
+    // vector<vector<ll>> query(n+1, vector<ll> (kLog, -1));
+    static int query[200000][32]; 
 
     for (ll i = 1; i <= n; i++) {
         ll x;
@@ -31,10 +35,11 @@ int main() {
 
         ll curr = start;
         for (ll p = 0; p < kLog; p++) {
-            if (1 << p & steps) {
+            if ((steps >> p) & 1) {
+                if (curr == -1) break;
                 curr = query[curr][p];
             }
         }
-        cout << curr << endl;
+        cout << curr << "\n";
     }
 }
