@@ -1,0 +1,1 @@
+Rename this file to output.txt to print out the program's output.

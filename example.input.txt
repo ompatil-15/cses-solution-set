@@ -1,0 +1,1 @@
+Rename this file to input.txt to give input to the program.
