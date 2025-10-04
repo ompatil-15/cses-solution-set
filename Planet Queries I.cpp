@@ -1,5 +1,8 @@
 // Author: cyberman
-// Algorithm: Binary lifting
+// Algorithm: Binary lifting for functional graphs (all nodes have outdegree 1)
+
+// Notes
+// Functional graph: tree with a cycle
 
 #include <bits/stdc++.h>
 using namespace std;

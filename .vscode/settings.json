@@ -11,7 +11,9 @@
 	"stacktrace": "cpp",
 	"regex": "cpp",
 	"valarray": "cpp",
-	"random": "cpp"
+	"random": "cpp",
+	"typeindex": "cpp",
+	"tuple": "cpp"
 },
 	"github.copilot.editor.enableAutoCompletions": false,
 	"C_Cpp.errorSquiggles": "disabled"
