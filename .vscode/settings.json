@@ -1,20 +1,29 @@
 {
-  "files.associations": {
-	"ostream": "cpp",
-	"initializer_list": "cpp",
-	"iostream": "cpp",
-	"array": "cpp",
-	"bitset": "cpp",
-	"string_view": "cpp",
-	"ranges": "cpp",
-	"span": "cpp",
-	"stacktrace": "cpp",
-	"regex": "cpp",
-	"valarray": "cpp",
-	"random": "cpp",
-	"typeindex": "cpp",
-	"tuple": "cpp"
-},
+	"files.associations": {
+		"ostream": "cpp",
+		"initializer_list": "cpp",
+		"iostream": "cpp",
+		"array": "cpp",
+		"bitset": "cpp",
+		"string_view": "cpp",
+		"ranges": "cpp",
+		"span": "cpp",
+		"stacktrace": "cpp",
+		"regex": "cpp",
+		"valarray": "cpp",
+		"random": "cpp",
+		"typeindex": "cpp",
+		"tuple": "cpp"
+	},
+	"[cpp]": {
+		"editor.defaultFormatter": "xaver.clang-format"
+	},
+	"[c]": {
+		"editor.defaultFormatter": "xaver.clang-format"
+	},
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
 	"github.copilot.editor.enableAutoCompletions": false,
 	"C_Cpp.errorSquiggles": "disabled"
 }

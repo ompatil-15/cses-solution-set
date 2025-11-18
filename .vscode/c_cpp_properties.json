@@ -5,10 +5,10 @@
       "includePath": [
         "${workspaceFolder}/**",
         "/opt/homebrew/Cellar/gcc/15.1.0/include/c++/15",
-        "/opt/homebrew/Cellar/gcc/15.1.0/include/c++/15/aarch64-apple-darwin24", 
-        "/opt/homebrew/include", 
-        "/Library/Developer/CommandLineTools/usr/include", 
-        "/Library/Developer/CommandLineTools/usr/lib/clang/17/include", 
+        "/opt/homebrew/Cellar/gcc/15.1.0/include/c++/15/aarch64-apple-darwin24",
+        "/opt/homebrew/include",
+        "/Library/Developer/CommandLineTools/usr/include",
+        "/Library/Developer/CommandLineTools/usr/lib/clang/17/include",
         "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"
       ],
       "macFrameworkPath": [
@@ -18,7 +18,7 @@
       "compilerPath": "/opt/homebrew/bin/g++-15",
       "cStandard": "c17",
       "cppStandard": "c++17",
-      "intelliSenseMode": "macos-gcc-arm64"
+      "intelliSenseMode": "macos-gcc-arm64",
     }
   ],
   "version": 4
